@@ -1,62 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PW Skills | Counter</title>
-    <!-- icon -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-3</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="icon"
-      type="image/x-icon"
-      sizes="16x16"
-      href="/images/favicon.ico"
-    />
-    <!-- imported the css file -->
-    <link rel="stylesheet" href="./styles.css" />
-    <!-- Font family import -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-  </head>
-  <body>
-    <main>
-      <nav class="nav_bar">
-        <div class="container">
-          <a href="https://pwskills.com/">
-            <img src="/images/pwskills-logo.png" alt="logo" class="nav_bar_logo"
-          /></a>
-        </div>
-      </nav>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-      <section class="container">
-        <div class="counter">
-          <div class="counter_body">
-            <h1 class="counter_body_heading">Counter</h1>
-            <p id="counter" class="counter_count_display">0</p>
-            <div class="counter_button">
-              <button
-                id="decrement"
-                class="counter_decrement"
-                onclick="{decrementButton}"
-              >
-                - Decrement
-              </button>
-              <button
-                id="increment"
-                class="counter_increment"
-                onclick="{incrementButton}"
-              >
-                + Increment
-              </button>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div>
+                <img src="https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_03(HTML+CSS)/assets/white-logo.png?raw=true" alt="">
             </div>
-          </div>
+            <div class="line"></div>
+            <div class="list">
+                <ul>
+                    <li>Apps</li>
+                    <li>DAO</li>
+                    <li>Technology</li>
+                    <li>Token</li>
+                    <li>Contributors</li>
+                </ul>
+            </div>
+            <div>
+                <button class="btns">Buy 1 Token</button>
+            </div>
+        </nav>
+        <!-- hero -section -->
+        <div class="hero">
+            <h1>Lets build a better<br> tomorrow, together.</h1>
+            <p class="para"> Buy 1 Token. Join the DAO. Change the world</p>
+            <button class="large-btns">Request Early Access</button>
         </div>
-      </section>
-    </main>
-
-    <!-- imported js file below -->
-    <script src="./counter.js"></script>
-  </body>
+    </div>
+</body>
 </html>
